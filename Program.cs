@@ -6,7 +6,8 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            new Hello().test1();
+            var hello = new Hello();
+            hello.test1();
             Console.WriteLine("Hello World!");
         }
     }
