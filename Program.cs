@@ -8,6 +8,7 @@ namespace MyApp
         {
             var hello = new Hello();
             hello.test1();
+            hello.test2();
             Console.WriteLine("Hello World!");
         }
     }
